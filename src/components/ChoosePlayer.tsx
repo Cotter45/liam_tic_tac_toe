@@ -13,8 +13,8 @@ export const ChoosePlayer = ({
   handlePlayerO,
 }: PlayerProp) => {
   return (
-    <div className="mt-20 md:mt-16 w-[500px] flex flex-col items-center justofy-center mx-auto">
-      <div className="flex flex-col items-center py-8 w-[400px] md:w-[500px] h-64 md:h-72 rounded-2xl bg-[#1f3540] mt-6 space-y-6 md:space-y-8">
+    <div className="mt-20 md:mt-16 w-[90%] flex flex-col items-center justofy-center mx-auto">
+      <div className="flex flex-col items-center py-8 w-full md:w-[500px] h-64 md:h-72 rounded-2xl bg-[#1f3540] mt-6 space-y-6 md:space-y-8">
         <p className="text-md text-gray-300 uppercase font-semibold md:text-xl ">
           Please Select{" "}
           <span className="text-[#30c4bd] text-xl font-bold ">X</span> or{" "}

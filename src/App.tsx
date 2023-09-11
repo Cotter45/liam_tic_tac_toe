@@ -79,10 +79,12 @@ const App = () => {
   }
 
   return (
-    <div className="flex min-h-screen w-full bg-[#192a32] flex-col items-center py-2">
-      <h1 className="text-6xl md:text-6xl font-extrabold mt-4 text-[#30c4bd] ">
-        Tic <span className="text-[#f3b236]">Tac </span> Toe
-      </h1>
+    <div className="flex min-h-[100dvh] w-full bg-[#192a32] flex-col items-center py-2">
+      {!newGame && (
+        <h1 className="text-6xl md:text-6xl font-extrabold mt-4 text-[#30c4bd] ">
+          Tic <span className="text-[#f3b236]">Tac </span> Toe
+        </h1>
+      )}
 
       {!newGame ? (
         <ChoosePlayer

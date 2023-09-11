@@ -11,7 +11,7 @@
   }
 
   .board {
-    @apply mt-12 flex w-full h-[500px] max-w-[500px] flex-col items-center justify-center space-y-4 rounded-xl mx-auto;
+    @apply mt-8 flex w-full h-[500px] max-w-[500px] flex-col items-center justify-center space-y-4 rounded-xl mx-auto;
   }
 
   .board-row {
