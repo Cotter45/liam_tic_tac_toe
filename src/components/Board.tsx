@@ -52,7 +52,7 @@ export const Board = ({
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full h-[95dvh] flex items-center">
       <div className="board">
         <div className="w-full rounded-lg flex items-center justify-center space-x-10">
           <div>
